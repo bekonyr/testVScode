@@ -1,0 +1,203 @@
+.hamburger-menu{
+    display: none;
+}
+*{
+
+   margin: 0;
+   padding: 0; 
+}
+a{
+    text-decoration: none;
+transition: .2s;
+}
+body a:hover{
+    color: #075d82;
+    text-decoration-line: underline ;
+  background: rgb(246, 246, 245);
+  border-radius: 19px;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+
+}
+body{
+    /* background: url("../img/green.png")no-repeat center/cover ;  */
+    /* background: url("../img/2023-04-05 16.18.09.jpg")no-repeat center/cover ;  */
+     background: linear-gradient(90deg,rgb(37, 141, 3),rgb(96, 209, 74)); 
+     font-family: Poppins, sans-serif;
+}
+/* header start///////////////// */
+#header{
+    padding: 10px 0;
+    background: #007E34; 
+    -webkit-box-shadow: 4px 16px 29px 4px rgba(255, 255, 255, 0.66);
+    -moz-box-shadow: 4px 16px 29px 4px rgba(255, 255, 255, 0.66);
+    box-shadow: 4px 16px 29px 4px rgba(255, 255, 255, 0.66);
+position: sticky;
+top: 0;
+z-index: 100;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.header-logo h1{
+    color: azure;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.heade-nav a{
+    color: white;
+     margin-right: 20px;
+     font-size: 20px;
+}
+.heade-nav select{
+    color:white;
+    background: none;
+    font-size: 20px;
+margin-right: 20px;
+border: none;
+border-radius: 10px;
+outline: none;
+
+}
+
+
+
+/* header end///////////////// */
+
+/* banner start//////////////////////////////// */
+.banner{
+    margin: 60px 0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.banner h5{
+    color: yellow;
+    letter-spacing: 2px;
+    line-height: 10px;
+    font-size: 55px;
+}
+.banner h2{
+    color: yellow;
+    letter-spacing: 2px;
+    line-height: 50px;
+    margin-bottom: 20px;
+
+}
+
+.banner-img{
+    display: flex;
+    justify-content: space-around;
+}
+.ulgu{
+    height: 200px; 
+    width: 200px;
+     margin-bottom: 30px;
+}
+.all{
+    height: 250px; 
+    width: 250px;
+}
+.wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.banner h1 a {
+    margin-top: 50px;
+    padding: 20px;
+    width: 400px;
+    font-size: 25px;
+    border: solid 3px rgb(252, 252, 249);
+    border-radius: 30px;
+    color: white;
+    background: linear-gradient(180deg, green, rgb(36, 208, 36)) ;
+
+}
+.course{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.course a{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+    padding: 20px;
+    width: 400px;
+    font-size: 25px;
+    border: solid 3px rgb(252, 252, 249);
+    border-radius: 30px;
+    color: white;
+    background: linear-gradient(180deg, green, rgb(36, 208, 36)) ;
+}
+.maalymat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.maalymat a{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+    padding: 20px;
+    width: 400px;
+    font-size: 25px;
+    border: solid 3px rgb(252, 252, 249);
+    border-radius: 30px;
+    color: white;
+    background: linear-gradient(180deg, green, rgb(36, 208, 36)) ;
+}
+/* <!-- banner end//////////////////////////////// --> */
+
+/* cclka start///////////////////////////////////////// */
+.cclka a h4{
+font-size: 25px;
+margin-left: 10px;
+color: rgb(10, 60, 242);
+
+}
+.clka a{
+    display: flex;
+    align-items: center;
+    
+}
+.you{
+    width: 100px;
+    height: 100px;
+}
+.ins{
+    width: 100px;
+    height: 100px;
+}
+.teleg{
+    width: 100px;
+    height: 100px;
+}
+/* cclka end///////////////////////////////////////// */
+
+
+
+
+/* <!-- footer star//////////////////////////////////////// --> */
+
